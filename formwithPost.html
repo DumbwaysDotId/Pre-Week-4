@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Form</title>
+  </head>
+  <body style="text-align: center;">
+    <h1>With POST Method</h1>
+    <form method="POST">
+      Nama : <input type="text" name="name" placeholder="Ex. Radifan" pattern="[a-zA-Z]{8}"/><br><br>
+
+      Email : <input type="email" name="email" placeholder="Ex. Radifan@gmail.com"/><br><br>
+
+      Password : <input type="password" name="password" placeholder="Your Password"/><br><br>
+
+      Age : <input type="number" name="age" min="1" max="60" placeholder="- "/><br><br>
+
+      Attache Your KTP : <input type="file" name="document"/><br><br>
+
+      <input type="radio" name="genders" value="Male">Male
+      <input type="radio" name="genders" value="Female"> Female<br><br>
+
+      <input type="checkbox" name="hobies" value="Smiwing">Smiwing
+      <input type="checkbox" name="hobies" value="Basket Ball">Basket Ball
+      <input type="checkbox" name="hobies" value="Playing Football"> Playing Football<br><br>
+
+      <input type="date" name="borndate" placeholder="Input Your Born Date"> <br><br>
+
+      <input type="month" name="borndate" placeholder="Input Your Born Date"> <br><br>
+
+      <input type="week" name="borndate" placeholder="Input Your Born Date"> <br><br>
+
+      <input type="time" name="borndate" placeholder="Input Your Born Date"> <br><br>
+
+      <input type="tel" name="phone" placeholder="Input your Phone Number" pattern="[0-9]{3}-[0-9]{10}"> <br><br>
+
+      <input type="url" name="website" placeholder="attache your link" pattern="https://.*"> <br><br>
+
+      <textarea rows="10" cols="20" name="address"></textarea><br><br>
+
+      <select name = "last education">
+        <option value="-">-</option>
+        <option value="College">College</option>
+        <option value="SMA">SMA</option>
+        <option value="SMP">SMP</option>
+        <option value="SD">SD</option>
+      </select> <br><br>
+
+      <input type="submit" />
+      <input type="reset" />
+    </form>
+  </body>
+</html>

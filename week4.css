@@ -1,0 +1,30 @@
+#h1-style{
+    color: aquamarine;
+    text-align: center;
+}
+
+.span-style{
+    color: darkcyan;
+    font-weight: bolder;
+}
+
+.h2-style{
+    color: cornflowerblue;
+    text-align: center;
+}
+
+
+.div-style{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.div-side{
+    padding-right: 50px;
+}
